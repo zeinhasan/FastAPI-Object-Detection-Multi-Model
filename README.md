@@ -1,9 +1,9 @@
 # Project: FastAPI for Custom Object Detection 
 
-## End-point: https://fast-api-object-detection-multi-model-qnfa7czi2a-uc.a.run.app
+## End-point: https://xxxxxx.a.run.app
 ### Method: POST
 >```
->https://fast-api-object-detection-multi-model-qnfa7czi2a-uc.a.run.app?image
+>https://xxxxxx.a.run.app?image
 >```
 ### Body formdata
 
