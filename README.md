@@ -1,2 +1,40 @@
-# FastAPI-Object-Detection-Multi-Model
-FastAPI-Object Detection-Multi Model
+# Project: FastAPI for Custom Object Detection 
+
+## End-point: https://fast-api-object-detection-multi-model-qnfa7czi2a-uc.a.run.app
+### Method: POST
+>```
+>https://fast-api-object-detection-multi-model-qnfa7czi2a-uc.a.run.app?image
+>```
+### Body formdata
+
+|Param|value|Type|
+|---|---|---|
+|file|Path_to_Image.jpg|file|
+|model_name|"Name Model"|Text|
+
+
+### Response
+
+```json
+{
+    "results": [
+        {
+            "name": "Bok-Choy-Siap-Panen",
+            "bounding_box": {
+                "x1": 0.0005950927734375,
+                "y1": 0.0,
+                "x2": 415.91009521484375,
+                "y2": 415.9314880371094
+            },
+            "confidence": 0.9964873790740967
+        }
+    ],
+    "annotated_image":"Image.jpg decoded in latin"
+}
+```
+
+
+
+⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
+_________________________________________________
+Powered By: [postman-to-markdown](https://github.com/bautistaj/postman-to-markdown/)
