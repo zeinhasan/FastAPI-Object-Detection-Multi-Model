@@ -12,6 +12,11 @@
 |file|Path_to_Image.jpg|file|
 |model_name|"Name Model"|Text|
 
+### Name Model
+1. apple
+2. banana
+3. chili
+4. pokchoy
 
 ### Response
 
