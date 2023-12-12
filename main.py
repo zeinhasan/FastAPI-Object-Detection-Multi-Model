@@ -10,10 +10,10 @@ app = FastAPI()
 
 # Dictionary mapping fruit names to their corresponding YOLO model files
 fruit_models = {
-    "apple": "Model\Apple-YoloV8L.pt",
-    "banana": "Model\Banana-YoloV8N.pt",
-    "chili": "Model\Chili-YoloV8N.pt",
-    "pokchoy": "Model\Pokcoy-YoloV8L.pt",
+    "apple": "Apple-YoloV8L.pt",
+    "banana": "Banana-YoloV8N.pt",
+    "chili": "Chili-YoloV8N.pt",
+    "pokchoy": "Pokcoy-YoloV8L.pt",
 }
 
 def load_model(model_path):
