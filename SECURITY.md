@@ -13,7 +13,7 @@ Our commitment to maintaining a secure environment is paramount, and our securit
 
 ## Reporting a Vulnerability
 
-we value the active participation of our community in ensuring the security of our systems. If you discover a vulnerability and would like to report it, we encourage you to do so responsibly. To report a vulnerability, please visit our dedicated reporting platform at report.security.md. We appreciate thorough and well-documented reports that include a clear description of the vulnerability, potential impact, and steps to reproduce.
+We value the active participation of our community in ensuring the security of our systems. If you discover a vulnerability and would like to report it, we encourage you to do so responsibly. To report a vulnerability, please visit our dedicated reporting platform at report.security.md. We appreciate thorough and well-documented reports that include a clear description of the vulnerability, potential impact, and steps to reproduce.
 
 Upon receiving a report, our security team will promptly investigate and assess the validity of the vulnerability. We strive to provide regular updates on the status of the investigation and aim to keep reporters informed of our progress. Please note that the time required for resolution may vary depending on the complexity of the reported vulnerability.
 
