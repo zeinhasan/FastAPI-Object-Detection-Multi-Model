@@ -1,9 +1,9 @@
 # Project: FastAPI for Custom Object Detection 
 
-## End-point: https://xxxxxx.a.run.app
+## End-point: [[https://xxxxxx.a.run.app](https://test-deployment-jht5j43saa-uc.a.run.app/predic)](https://test-deployment-jht5j43saa-uc.a.run.app/predict)
 ### Method: POST
 >```
->https://xxxxxx.a.run.app?image
+>https://test-deployment-jht5j43saa-uc.a.run.app/predict?image
 >```
 ### Body formdata
 
