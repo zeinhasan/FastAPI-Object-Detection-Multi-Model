@@ -84,3 +84,5 @@ async def predict(
 
     # Return the results and annotated image as JSON
     return {"results": yolo_results, "annotated_image": img_stream.decode('latin1')}
+
+# Testing Deployment
