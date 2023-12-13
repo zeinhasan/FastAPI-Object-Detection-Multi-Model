@@ -14,6 +14,7 @@ fruit_models = {
     "banana": "Banana-YoloV8N.pt",
     "chili": "Chili-YoloV8N.pt",
     "pokchoy": "Pokcoy-YoloV8L.pt",
+    "orange": "Orange-YoloV8N.pt",
 }
 
 def load_model(model_path):
