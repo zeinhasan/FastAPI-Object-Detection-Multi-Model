@@ -83,6 +83,6 @@ async def predict(
     _, img_stream = cv2.imencode('.jpg', annotated_img)
 
     # Return the results and annotated image as JSON
-    return {"results": yolo_results, "annotated_image": StreamingResponse(BytesIO(img_stream.tobytes()), media_type="image/jpeg")}
+    return StreamingResponse(BytesIO(img_stream.tobytes()), media_type="image/jpeg")
 
 # Testing Deployment
