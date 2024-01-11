@@ -74,7 +74,6 @@ async def predict(
     # Load and process the image
     contents = await file.read()
     img = cv2.imdecode(np.frombuffer(contents, np.uint8), cv2.IMREAD_COLOR)
-    img = cv2.resize(img, (416, 416))
 
     # Run YOLO on the image and get annotated image
     yolo_results, annotated_img = yolo(img, model)
