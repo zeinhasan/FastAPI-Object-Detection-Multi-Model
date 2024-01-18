@@ -5,7 +5,7 @@ from fastapi import FastAPI, File, UploadFile, Form
 from fastapi.responses import StreamingResponse
 from ultralytics import YOLO
 from io import BytesIO
-
+import base64
 app = FastAPI()
 
 # Dictionary mapping fruit names to their corresponding YOLO model files
@@ -80,8 +80,9 @@ async def predict(
 
     # Convert annotated image to stream
     _, img_stream = cv2.imencode('.jpg', annotated_img)
+    img_base64 = base64.b64encode(img_stream).decode('utf-8')
 
     # Return the results and annotated image as JSON
-    return StreamingResponse(BytesIO(img_stream.tobytes()), media_type="image/jpeg")
+    return {"results": yolo_results, "annotated_image": img_base64}
 
 # Testing Deployment
